@@ -14,7 +14,7 @@ try {
   await driver.get("http://localhost:8080");
 
   const title = await driver.getTitle();
-  assert.equal("Code Checker Example: PNPM", title);
+  assert.equal("Code Checker Example: BUN", title);
 
   await driver.manage().setTimeouts({ implicit: 500 });
 
