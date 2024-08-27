@@ -1,0 +1,25 @@
+{
+  "name": "code-checker-example-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server"
+  },
+  "devDependencies": {
+    "@siteimprove/alfa-device": "^0.89.0",
+    "@siteimprove/alfa-dom": "^0.89.0",
+    "@siteimprove/alfa-http": "^0.89.0",
+    "@siteimprove/alfa-test-utils": "^0.70.0",
+    "@siteimprove/alfa-web": "^0.89.0",
+    "@types/bun": "latest",
+    "@types/mocha": "^10.0.7",
+    "@types/selenium-webdriver": "^4.1.26",
+    "http-server": "^14.1.1",
+    "mocha": "^10.7.3",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+
